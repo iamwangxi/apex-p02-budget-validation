@@ -18,15 +18,19 @@
 
 `README.md`、本文和 `proof/submission.md` 专为这一单项贡献准备。未包含扩展证明：投稿正文自身给出了完备性输入、宿主构造、区域原子、精确谓词和去重规范。README 与投稿正文均用 URL 和 SHA-256 标识源论文。
 
-`proof/submission.md` 与另行维护的官方表单版 Markdown 逐字节相同，投稿版本为 **v1.2**。其第一行是拟用英文标题；余下文字是表单正文。整个文件包括标题和空白字符在内，共 18,953 个 UTF-16 代码单元，低于 20,000。其 SHA-256 记载于 `MANIFEST.sha256`。
+`proof/submission.md` 与另行维护的官方表单版 Markdown 逐字节相同，投稿版本为 **v1.3**。其第一行是拟用英文标题，共 96 个 UTF-16 代码单元。去掉该行及首尾空行后，表单正文为 19,196 个 UTF-16 代码单元，低于 20,000。整个文件包括标题和空白字符在内，共 19,295 个 UTF-16 代码单元。其 SHA-256 记载于 `MANIFEST.sha256`。
 
-仓库 URL 为 [apex-p02-budget-validation](https://github.com/iamwangxi/apex-p02-budget-validation)，投稿正文所引用的仓库快照为 **v1.0**。投稿版本 `v1.2` 和仓库版本 `v1.0` 标识不同的产物。`v1.0` 标签固定这一快照；后续对投稿正文或文档的改动需要新的提交和新版本，且不得移动现有标签。提交哈希和清单哈希记载于外部验证记录。即使仓库不可用，也能独立阅读重建规范。
+仓库 URL 为 [apex-p02-budget-validation](https://github.com/iamwangxi/apex-p02-budget-validation)，投稿正文所引用的仓库快照为 **v1.2**。投稿版本 `v1.3` 和仓库版本 `v1.2` 标识不同的产物。`v1.2` 标签固定这一快照；后续对投稿正文或文档的改动需要新的提交和新版本，且不得移动现有标签。提交哈希和清单哈希记载于外部验证记录。即使仓库不可用，也能独立阅读重建规范。
 
 标签 `v1.0` 对应的修订仅更改了 `proof/submission.md`、`README.md`、本文和 `MANIFEST.sha256`。所有现有科学文件，包括两个跨模型脚本及其已记录输出，均保留原有的全部字节。重新生成清单前会检查证明／表单同步情况及表单字数限制。
 
 ## 中文译本（标签 v1.1）
 
-标签 `v1.1` 新增了 `README.md`、`REPRODUCE.md`、本文和 `proof/submission.md` 的简体中文译本，译本文件使用 `.zh-CN.md` 后缀，并在三份英文文档顶部新增语言切换行。它还更新了 README 和本文中的版本说明，并更正 `REPRODUCE.md` 中将推论 9.13 称为引理的一处标签。它还明确了：对全部 782,145 个候选子集重新计算纯坏性，对其中 11,504 个纯坏见证检查预算断言。译本由 OpenAI Codex（GPT）完成，并由一个全新的 GPT 会话对照英文源文件检查；公式、命令、数字、哈希、URL 和文件名保持不变。英文文件为准。`proof/submission.md` 没有切换行，因为它必须与官方投稿正文逐字节相同；README 链接了两个语言版本。`proof/submission.md`、`LICENSE`、`.gitignore`、全部代码和全部证书与标签 `v1.0` 逐字节相同，该标签仍是投稿正文 v1.2 所引用的快照。在标签 `v1.1` 中，清单有 27 条记录：`v1.0` 的 23 条记录和四份译本。`LICENSE` 不翻译。
+标签 `v1.1` 新增了 `README.md`、`REPRODUCE.md`、本文和 `proof/submission.md` 的简体中文译本，译本文件使用 `.zh-CN.md` 后缀，并在三份英文文档顶部新增语言切换行。它还更新了 README 和本文中的版本说明，并更正 `REPRODUCE.md` 中将推论 9.13 称为引理的一处标签。它还明确了：对全部 782,145 个候选子集重新计算纯坏性，对其中 11,504 个纯坏见证检查预算断言。译本由 OpenAI Codex（GPT）完成，并由一个全新的 GPT 会话对照英文源文件检查；公式、命令、数字、哈希、URL 和文件名保持不变。英文文件为准。`proof/submission.md` 没有切换行，因为它必须与官方投稿正文逐字节相同；README 链接了两个语言版本。在标签 `v1.1` 中，`proof/submission.md`、`LICENSE`、`.gitignore`、全部代码和全部证书仍与标签 `v1.0` 逐字节相同，该标签曾是投稿正文 v1.2 所引用的快照。在标签 `v1.1` 中，清单有 27 条记录：`v1.0` 的 23 条记录和四份译本。`LICENSE` 不翻译。
+
+## 标签 v1.2
+
+标签 `v1.2` 将 `proof/submission.md` 换为投稿正文 v1.3，并同步 `proof/submission.zh-CN.md`。它更新 `README.md`、`README.zh-CN.md`、`PACKAGING.md` 和 `PACKAGING.zh-CN.md` 中的版本说明，在两份 README 中新增宿主证书阅读说明，并重新生成 `MANIFEST.sha256`。只有这七个文件发生变化。全部代码、证书、`LICENSE` 和 `.gitignore` 与 `v1.0` 逐字节相同；`REPRODUCE.md` 和 `REPRODUCE.zh-CN.md` 与 `v1.1` 逐字节相同。清单仍有 27 条记录。基于 DeepSeek 的代理提出措辞问题，Claude 与 GPT 作出裁决，Codex 执行修改，再由一个全新的 GPT 会话复核这些改动。
 
 ## 本次提取的验证
 
@@ -34,4 +38,4 @@
 
 类型记录的 SHA-256 仍为 `bc1a30fe32b3f357a3c94688e69e3a36979c60cd103017e0a4c1dd3f30244b4a`；完整的 72 单元 CSV 的 SHA-256 仍为 `11da4b46f89c08e1e614eefd87878737d30cde9d2bfb17e2c066d34dac809bde`。
 
-未复制任何 `.git`、`.local-validation`、环境、缓存、先前的完整路线证明、第三方 PDF、对话记录或私人机器路径。发布清单仅由清单记录（标签 `v1.0` 中为 23 条，标签 `v1.1` 中为 27 条）及 `MANIFEST.sha256` 自身组成。
+未复制任何 `.git`、`.local-validation`、环境、缓存、先前的完整路线证明、第三方 PDF、对话记录或私人机器路径。发布清单仅由清单记录（标签 `v1.0` 中为 23 条，标签 `v1.1` 和 `v1.2` 中为 27 条）及 `MANIFEST.sha256` 自身组成。
