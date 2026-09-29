@@ -1,0 +1,18 @@
+# Claude cross-check output (generated 2026-09-29T11:55Z, Python 3.9.6)
+$ python3 -B code/claude_host_census.py --small-cases
+hosts=191 invalid=0 distinct_oriented_codes=191
+automorphism_group_sizes={1: 155, 2: 28, 3: 1, 4: 4, 6: 1, 8: 1, 24: 1}
+sum_24_over_aut=4096 expected_A002005_a4=4096 match=True
+brute_force_rooted_planar_cubic_maps vertices=2 count=4 formula=4
+brute_force_rooted_planar_cubic_maps vertices=4 count=32 formula=32
+passed=True
+exit=0
+$ python3 -B code/claude_budget_check.py
+hosts=191 subsets=782145 purely_bad_witnesses=11504
+witnesses_by_edge_count_1_to_12=504,1218,2121,2607,2375,1599,765,255,54,6,0,0
+witnesses_by_used_marks_1_to_6=1310,5916,3718,560,0,0
+predicate_failures={"9.11": 0, "9.13": 0, "9.14": 0, "9.15": 0, "9.16": 0}
+host_legality_checks=1465 violations=0
+sensitivity_controls={"control_free_gap_with_k_at_least_3": 1558, "control_free_gap_with_more_than_2_boundary_marks": 0, "control_good_face_k1_missing": 459, "control_three_disjoint_free_gaps_missing": 7515}
+passed=True
+exit=0

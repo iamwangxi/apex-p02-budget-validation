@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "seed": "explicit octahedral triangulation",
+  "hosts": 191,
+  "transitions": 1924,
+  "main_host_count": 191,
+  "main_distinct_under_independent_canon": 191,
+  "only_main": 0,
+  "only_flip": 0,
+  "agree": true,
+  "seconds": 0.6906158924102783,
+  "independent_of": [
+    "binary-tree enumeration",
+    "stem order",
+    "noncrossing matchings",
+    "main canonical labeling"
+  ]
+}

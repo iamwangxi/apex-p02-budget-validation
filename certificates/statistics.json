@@ -1,0 +1,467 @@
+{
+  "complete": true,
+  "hosts": 191,
+  "unique": 658,
+  "failures": [],
+  "seconds": 6.098490953445435,
+  "strata": [
+    {
+      "E": 1,
+      "V": 1,
+      "candidates": 504,
+      "legal": 504,
+      "pure": 504,
+      "unique": 2,
+      "checked": 2,
+      "duplicates": 502
+    },
+    {
+      "E": 1,
+      "V": 2,
+      "candidates": 1788,
+      "legal": 1788,
+      "not_pure": 1788
+    },
+    {
+      "E": 2,
+      "V": 1,
+      "candidates": 368,
+      "legal": 368,
+      "pure": 368,
+      "unique": 4,
+      "checked": 4,
+      "duplicates": 364
+    },
+    {
+      "E": 2,
+      "V": 2,
+      "candidates": 3820,
+      "legal": 3820,
+      "not_pure": 2970,
+      "pure": 850,
+      "unique": 6,
+      "checked": 6,
+      "duplicates": 844
+    },
+    {
+      "E": 2,
+      "V": 3,
+      "candidates": 6415,
+      "legal": 6415,
+      "not_pure": 6415
+    },
+    {
+      "E": 2,
+      "V": 4,
+      "candidates": 2003,
+      "legal": 2003,
+      "not_pure": 2003
+    },
+    {
+      "E": 3,
+      "V": 1,
+      "candidates": 252,
+      "legal": 252,
+      "pure": 252,
+      "unique": 6,
+      "checked": 6,
+      "duplicates": 246
+    },
+    {
+      "E": 3,
+      "V": 2,
+      "candidates": 4485,
+      "legal": 4485,
+      "pure": 1605,
+      "unique": 14,
+      "checked": 14,
+      "not_pure": 2880,
+      "duplicates": 1591
+    },
+    {
+      "E": 3,
+      "V": 3,
+      "candidates": 16523,
+      "legal": 16523,
+      "not_pure": 16259,
+      "pure": 264,
+      "unique": 6,
+      "checked": 6,
+      "duplicates": 258
+    },
+    {
+      "E": 3,
+      "V": 4,
+      "candidates": 16315,
+      "legal": 16315,
+      "not_pure": 16315
+    },
+    {
+      "E": 3,
+      "V": 5,
+      "candidates": 4265,
+      "legal": 4265,
+      "not_pure": 4265
+    },
+    {
+      "E": 3,
+      "V": 6,
+      "candidates": 180,
+      "legal": 180,
+      "not_pure": 180
+    },
+    {
+      "E": 4,
+      "V": 1,
+      "candidates": 129,
+      "legal": 129,
+      "pure": 129,
+      "unique": 8,
+      "checked": 8,
+      "duplicates": 121
+    },
+    {
+      "E": 4,
+      "V": 2,
+      "candidates": 3673,
+      "legal": 3673,
+      "pure": 1700,
+      "unique": 39,
+      "checked": 39,
+      "duplicates": 1661,
+      "not_pure": 1973
+    },
+    {
+      "E": 4,
+      "V": 3,
+      "candidates": 22621,
+      "legal": 22621,
+      "not_pure": 21882,
+      "pure": 739,
+      "unique": 18,
+      "checked": 18,
+      "duplicates": 721
+    },
+    {
+      "E": 4,
+      "V": 4,
+      "candidates": 41454,
+      "legal": 41454,
+      "not_pure": 41415,
+      "pure": 39,
+      "unique": 4,
+      "checked": 4,
+      "duplicates": 35
+    },
+    {
+      "E": 4,
+      "V": 5,
+      "candidates": 23375,
+      "legal": 23375,
+      "not_pure": 23375
+    },
+    {
+      "E": 4,
+      "V": 6,
+      "candidates": 3293,
+      "legal": 3293,
+      "not_pure": 3293
+    },
+    {
+      "E": 5,
+      "V": 1,
+      "candidates": 46,
+      "legal": 46,
+      "pure": 46,
+      "unique": 7,
+      "checked": 7,
+      "duplicates": 39
+    },
+    {
+      "E": 5,
+      "V": 2,
+      "candidates": 2087,
+      "legal": 2087,
+      "pure": 1138,
+      "unique": 58,
+      "checked": 58,
+      "duplicates": 1080,
+      "not_pure": 949
+    },
+    {
+      "E": 5,
+      "V": 3,
+      "candidates": 19989,
+      "legal": 19989,
+      "not_pure": 18895,
+      "pure": 1094,
+      "unique": 43,
+      "checked": 43,
+      "duplicates": 1051
+    },
+    {
+      "E": 5,
+      "V": 4,
+      "candidates": 59005,
+      "legal": 59005,
+      "not_pure": 58908,
+      "pure": 97,
+      "unique": 6,
+      "checked": 6,
+      "duplicates": 91
+    },
+    {
+      "E": 5,
+      "V": 5,
+      "candidates": 55737,
+      "legal": 55737,
+      "not_pure": 55737
+    },
+    {
+      "E": 5,
+      "V": 6,
+      "candidates": 14408,
+      "legal": 14408,
+      "not_pure": 14408
+    },
+    {
+      "E": 6,
+      "V": 1,
+      "candidates": 10,
+      "legal": 10,
+      "pure": 10,
+      "unique": 4,
+      "checked": 4,
+      "duplicates": 6
+    },
+    {
+      "E": 6,
+      "V": 2,
+      "candidates": 792,
+      "legal": 792,
+      "pure": 487,
+      "unique": 67,
+      "checked": 67,
+      "duplicates": 420,
+      "not_pure": 305
+    },
+    {
+      "E": 6,
+      "V": 3,
+      "candidates": 11788,
+      "legal": 11788,
+      "pure": 961,
+      "unique": 77,
+      "checked": 77,
+      "not_pure": 10827,
+      "duplicates": 884
+    },
+    {
+      "E": 6,
+      "V": 4,
+      "candidates": 53669,
+      "legal": 53669,
+      "not_pure": 53528,
+      "pure": 141,
+      "unique": 16,
+      "checked": 16,
+      "duplicates": 125
+    },
+    {
+      "E": 6,
+      "V": 5,
+      "candidates": 78327,
+      "legal": 78327,
+      "not_pure": 78327
+    },
+    {
+      "E": 6,
+      "V": 6,
+      "candidates": 31898,
+      "legal": 31898,
+      "not_pure": 31898
+    },
+    {
+      "E": 7,
+      "V": 1,
+      "candidates": 1,
+      "legal": 1,
+      "pure": 1,
+      "unique": 1,
+      "checked": 1
+    },
+    {
+      "E": 7,
+      "V": 2,
+      "candidates": 181,
+      "legal": 181,
+      "pure": 122,
+      "unique": 40,
+      "checked": 40,
+      "duplicates": 82,
+      "not_pure": 59
+    },
+    {
+      "E": 7,
+      "V": 3,
+      "candidates": 4524,
+      "legal": 4524,
+      "pure": 498,
+      "unique": 83,
+      "checked": 83,
+      "duplicates": 415,
+      "not_pure": 4026
+    },
+    {
+      "E": 7,
+      "V": 4,
+      "candidates": 32161,
+      "legal": 32161,
+      "not_pure": 32017,
+      "pure": 144,
+      "unique": 18,
+      "checked": 18,
+      "duplicates": 126
+    },
+    {
+      "E": 7,
+      "V": 5,
+      "candidates": 71094,
+      "legal": 71094,
+      "not_pure": 71094
+    },
+    {
+      "E": 7,
+      "V": 6,
+      "candidates": 43311,
+      "legal": 43311,
+      "not_pure": 43311
+    },
+    {
+      "E": 8,
+      "V": 2,
+      "candidates": 19,
+      "legal": 19,
+      "pure": 14,
+      "unique": 14,
+      "checked": 14,
+      "not_pure": 5
+    },
+    {
+      "E": 8,
+      "V": 3,
+      "candidates": 1029,
+      "legal": 1029,
+      "pure": 144,
+      "unique": 58,
+      "checked": 58,
+      "duplicates": 86,
+      "not_pure": 885
+    },
+    {
+      "E": 8,
+      "V": 4,
+      "candidates": 12398,
+      "legal": 12398,
+      "not_pure": 12301,
+      "pure": 97,
+      "unique": 23,
+      "checked": 23,
+      "duplicates": 74
+    },
+    {
+      "E": 8,
+      "V": 5,
+      "candidates": 42543,
+      "legal": 42543,
+      "not_pure": 42543
+    },
+    {
+      "E": 8,
+      "V": 6,
+      "candidates": 38556,
+      "legal": 38556,
+      "not_pure": 38556
+    },
+    {
+      "E": 9,
+      "V": 3,
+      "candidates": 106,
+      "legal": 106,
+      "pure": 18,
+      "unique": 18,
+      "checked": 18,
+      "not_pure": 88
+    },
+    {
+      "E": 9,
+      "V": 4,
+      "candidates": 2806,
+      "legal": 2806,
+      "pure": 36,
+      "unique": 12,
+      "checked": 12,
+      "not_pure": 2770,
+      "duplicates": 24
+    },
+    {
+      "E": 9,
+      "V": 5,
+      "candidates": 16334,
+      "legal": 16334,
+      "not_pure": 16334
+    },
+    {
+      "E": 9,
+      "V": 6,
+      "candidates": 22774,
+      "legal": 22774,
+      "not_pure": 22774
+    },
+    {
+      "E": 10,
+      "V": 4,
+      "candidates": 285,
+      "legal": 285,
+      "pure": 6,
+      "unique": 6,
+      "checked": 6,
+      "not_pure": 279
+    },
+    {
+      "E": 10,
+      "V": 5,
+      "candidates": 3668,
+      "legal": 3668,
+      "not_pure": 3668
+    },
+    {
+      "E": 10,
+      "V": 6,
+      "candidates": 8653,
+      "legal": 8653,
+      "not_pure": 8653
+    },
+    {
+      "E": 11,
+      "V": 5,
+      "candidates": 368,
+      "legal": 368,
+      "not_pure": 368
+    },
+    {
+      "E": 11,
+      "V": 6,
+      "candidates": 1924,
+      "legal": 1924,
+      "not_pure": 1924
+    },
+    {
+      "E": 12,
+      "V": 6,
+      "candidates": 191,
+      "legal": 191,
+      "not_pure": 191
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "counts": {
+    "all_pure_witnesses": 11504,
+    "all_candidates": 782145,
+    "unique": 658,
+    "checked_record_ids": 658,
+    "full_record_reconstructions": 658,
+    "random_dart_relabelings": 658,
+    "all_subpredicate_comparisons": 115040,
+    "legal_positive_negative_examples": 5
+  },
+  "random_seed": 20260929,
+  "legal_examples": [
+    "essential isotopic loops at one basepoint",
+    "non-isotopic loops at one basepoint",
+    "inessential loop",
+    "isotopic non-loop pair",
+    "non-isotopic non-loop pair"
+  ],
+  "compared_keys": [
+    "9.11",
+    "9.11_disjoint",
+    "9.11_faces",
+    "9.13",
+    "9.14",
+    "9.15",
+    "9.16",
+    "free_count",
+    "good_count",
+    "V"
+  ],
+  "shared_functions": [
+    "subsets.Host",
+    "independent_predicates.check"
+  ],
+  "independently_added": [
+    "all-witness iteration",
+    "Euler and atom conservation",
+    "record reconstruction",
+    "random relabeling",
+    "five hand-built legality examples"
+  ],
+  "sha256": {
+    "code/triangulations.py": "576bba7d93ace1d1e0397684034c456e37195817758f49d32bccac6323633bab",
+    "code/flip_crosscheck.py": "0907c4a2f2d5515b0fa493f0480b015f3611d5432ff365407d97acbc0dfa9450",
+    "code/subsets.py": "1e3780cc42bd7bbfefee589bb2b2a1aa11859c66a86232acb289cbfbddbb94e3",
+    "code/independent_predicates.py": "eb6c6dc10824b4a41124fff8b2f87d8e4bd0aa8b705653cff78a6066e4d5c201",
+    "code/audit_checks.py": "a93577ef2eaa64767e57125a1ce42f524ceb204f0c9ab29914f5cf62067c2cf0",
+    "results/hosts.json": "d88465234aafcae0612f02496a2b53e61b29c7d60f99c1c8393f3e031fa4b9cc",
+    "results/host-crosscheck.json": "3af93e04fc5a95aafb6be12622811acc62104deed18d6a538fa9bcd40eb2fafe",
+    "results/types.jsonl": "bc1a30fe32b3f357a3c94688e69e3a36979c60cd103017e0a4c1dd3f30244b4a",
+    "results/statistics.json": "00f9dc2354129866b231e6aa437c96ce77336c634a31b92cc65ea060de27a5c6"
+  },
+  "seconds": 8.41435694694519
+}
