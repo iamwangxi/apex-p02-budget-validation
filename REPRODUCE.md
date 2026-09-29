@@ -1,3 +1,5 @@
+**English** | [简体中文](REPRODUCE.zh-CN.md)
+
 # Reproduce the finite Budget audit
 
 Run every command below from the root of this package. Python 3.9 or later is required. The release was tested on Python 3.9.6, macOS arm64, with `pynauty==2.8.8.1`. `triangulations.py` and `verify_certificates.py` use only the standard library; the other full-enumeration and audit commands use pynauty. Installation may require a C compiler if a wheel is unavailable. Do not use Python's `-O` option: assertions are part of the checks.
@@ -45,7 +47,7 @@ python3 -B code/claude_host_census.py --small-cases
 python3 -B code/claude_budget_check.py
 ```
 
-The first validates the 191 hosts, confirms they are pairwise non-isomorphic, and checks that the automorphism-weighted count of 24/|Aut+| over all hosts equals 4096 = A002005 a(4); `--small-cases` brute-forces a(1) = 4 and a(2) = 32 on the same map family. The second recomputes pure badness and Lemmas 9.11, 9.13, 9.14, 9.15 and Corollary 9.16 for all 782,145 subsets, rechecks host legality and prints sensitivity controls. Both exit with status zero and end with `passed=True`; the recorded output is `certificates/claude-crosscheck.txt`. The second script took about a minute in the recorded environment.
+The first validates the 191 hosts, confirms they are pairwise non-isomorphic, and checks that the automorphism-weighted count of 24/|Aut+| over all hosts equals 4096 = A002005 a(4); `--small-cases` brute-forces a(1) = 4 and a(2) = 32 on the same map family. The second recomputes pure badness for all 782,145 subsets, checks Lemmas 9.11, 9.14 and 9.15, Corollary 9.16 and auxiliary Corollary 9.13 on the 11,504 purely bad witnesses, rechecks host legality and prints sensitivity controls. Both exit with status zero and end with `passed=True`; the recorded output is `certificates/claude-crosscheck.txt`. The second script took about a minute in the recorded environment.
 
 ## Rebuild the complete finite computation
 

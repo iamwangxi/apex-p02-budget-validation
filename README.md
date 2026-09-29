@@ -1,8 +1,10 @@
+**English** | [简体中文](README.zh-CN.md)
+
 # Apex paper 02: exhaustive six-point Budget validation
 
 This focused package supports a finite audit of Lemmas 9.11, 9.14, 9.15 and Corollary 9.16 of Apex Intelligence's [*The complex of curves pairwise intersecting at most once is contractible in genus two*](https://math.apexin.net/papers/curve-complex-genus-two.pdf), dated 11 September 2026. Corollary 9.13 is also checked as an auxiliary predicate. The target PDF has 35 pages and SHA-256 `d1eadd01f94e9af17ee9f5fb2ee1b05b326430f37296309fd9417340ea366fd4`.
 
-The contribution is the exhaustive combinatorial audit and its reproducibility evidence. The paper's Budget statements and standard surface-topology inputs are not claimed as new theorems. The submission text is version **v1.2**; the repository snapshot is **v1.0** at [apex-p02-budget-validation](https://github.com/iamwangxi/apex-p02-budget-validation). The `v1.0` tag fixes this snapshot. Later text or documentation changes require a new commit and a new version; the existing tag must not be moved.
+The contribution is the exhaustive combinatorial audit and its reproducibility evidence. The paper's Budget statements and standard surface-topology inputs are not claimed as new theorems. The submission text is version **v1.2**; it cites repository snapshot **v1.0** of [apex-p02-budget-validation](https://github.com/iamwangxi/apex-p02-budget-validation). The `v1.0` tag fixes that snapshot. Later text or documentation changes require a new commit and a new version; the existing tag must not be moved.
 
 ## Contents
 
@@ -12,6 +14,9 @@ The contribution is the exhaustive combinatorial audit and its reproducibility e
 - [Code](code/): host generation, independent host comparison, region predicates, enumeration, record inspection and audit utilities, plus two separately written cross-model checks (`claude_host_census.py`, `claude_budget_check.py`).
 - [Certificates](certificates/): 191 hosts, 658 type records, all 72 statistical strata, software-audit evidence and the recorded output of the cross-model checks (`claude-crosscheck.txt`).
 - [SHA-256 manifest](MANIFEST.sha256): every intended release file except the manifest itself.
+- Simplified Chinese translations: [README](README.zh-CN.md), [reproduction instructions](REPRODUCE.zh-CN.md), [packaging note](PACKAGING.zh-CN.md) and [submission text](proof/submission.zh-CN.md). They were produced by OpenAI Codex (GPT); the English files are authoritative.
+
+Tag `v1.0` is the snapshot cited by submission text v1.2. Tag `v1.1` adds the Chinese translations and language-switch lines, updates the version notes in this README and `PACKAGING.md`, and corrects one label in `REPRODUCE.md`, where Corollary 9.13 had been called a lemma. It also clarifies that pure badness is recomputed for all 782,145 candidate subsets and the Budget assertions are checked on the 11,504 purely bad witnesses. The submission text, code and certificates are byte-identical to `v1.0`.
 
 ## Exact scope
 
@@ -38,6 +43,6 @@ This package does not validate the original spectral sequence, the full contract
 
 The copied scientific files preserve the already verified packaged implementation and certificates byte-for-byte. A complete packaged rerun took place on 29 September 2026. For this focused extraction, the SHA-256 bindings and standard-library quick verifier were checked; no unnecessary new full enumeration was run. The quick verifier checks recorded evidence and integrity, not mathematical completeness or fresh execution of every predicate.
 
-Mathematical drafting and prior checking used GPT-6 Astra and Claude Opus 5.5. GPT-based agents produced and reviewed the finite reduction, code and software audits. Claude reviewed version v1.1 of the focused submission and added the two cross-model checks. A new GPT session reviewed the v1.2 changes and their affected context. AI review, executable results and finite certificates are distinct evidence; none is human expert endorsement or formal verification.
+Mathematical drafting and prior checking used GPT-6 Astra and Claude Opus 5.5. GPT-based agents produced and reviewed the finite reduction, code and software audits. Claude reviewed version v1.1 of the focused submission and added the two cross-model checks. A new GPT session reviewed the v1.2 changes and their affected context. For tag v1.1, OpenAI Codex (GPT) produced the Chinese translations and a fresh GPT session checked them against the English sources. AI review, executable results and finite certificates are distinct evidence; none is human expert endorsement or formal verification.
 
 Python 3.9 or later and `pynauty==2.8.8.1` support the full workflow. Code is MIT-licensed; original prose and the generated certificate collection are offered under CC BY 4.0 to the extent applicable rights exist. The inherited attribution is retained in [LICENSE](LICENSE). Third-party works and dependencies retain their own licenses; external PDFs are linked rather than bundled.
