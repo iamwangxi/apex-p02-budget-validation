@@ -54,3 +54,7 @@ The copied scientific files preserve the already verified packaged implementatio
 Mathematical drafting and prior checking used GPT-6 Astra and Claude Opus 5.5. GPT-based agents produced and reviewed the finite reduction, code and software audits. Claude reviewed version v1.1 of the focused submission and added the two cross-model checks. A new GPT session reviewed the v1.2 changes and their affected context. For tag v1.1, OpenAI Codex (GPT) produced the Chinese translations and a fresh GPT session checked them against the English sources. For tag v1.2, a DeepSeek-based agent reviewed the text, Claude and GPT adjudicated the wording points, Codex made the changes, and a fresh GPT session reviewed them. AI review, executable results and finite certificates are distinct evidence; none is human expert endorsement or formal verification.
 
 Python 3.9 or later and `pynauty==2.8.8.1` support the full workflow. Code is MIT-licensed; original prose and the generated certificate collection are offered under CC BY 4.0 to the extent applicable rights exist. The inherited attribution is retained in [LICENSE](LICENSE). Third-party works and dependencies retain their own licenses; external PDFs are linked rather than bundled.
+
+## Revision note
+
+This revision differs from `36532d51356aa235bd2fe15c56540751bb7a01c6` only in how formulas are written. GitHub's Markdown processing removed backslash escapes such as `\{` and `\,` inside `$...$` and did not recognise some formulas, so every formula now uses GitHub's literal math syntax. No mathematical text was changed.
